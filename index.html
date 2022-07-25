@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <title>RUN WITH TARIQ</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>run with <span>tariq</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#who-are-we">who are we?</a></li>
+                <li><a href="#join" id="joinus">join us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <img src="../responsive/resourses/images/5.jpg" alt="">
+        <h1>“It doesn’t matter how fast or how far you’re going. If you’re putting on your shoes and going out for a run, you are a runner, you are in that club.” 
+
+            — <span> — Kara Goucher, Olympic long-distance runner and bronze medalist of the Boston Marathon</span></h1>
+    </section>
+    <hr>
+    <div class="who" id="who-are-we">
+        <h1>who <span>are</span> we?</h1>    
+            
+        <img src="../responsive/resourses/images/3.jpg" width="40%" alt="">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+             It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+               looked up one of the more obscure Latin words, consectetur,
+                from a Lorem Ipsum passage,
+                 and going through the cites of the word in classical literature, 
+                 discovered the undoubtable source.
+                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+                   (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                   This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                   The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" 
+            by Cicero are also reproduced in their exact original form, 
+            accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div>
+
+    <hr>
+
+    <h1 id="join"> JOIN US</h1>
+
+    <fieldset>
+        <legend>write your information below</legend>
+        <p>First Name: <input type="text" name="name" id="" maxlength="15" required></p>
+        <p>Last Name: <input type="text" maxlength="15" required></p>
+        <p class="inline">E-mail : <input type="text" ></p> <p class="inline">Age: <input type="text"></p>
+
+        <p id="fit"> Fitness Level :</p> <label class="container"> beginner <input class="inp" type="radio" name="radio"></label>
+        <label class="container"> intermediate <input class="inp" type="radio" name="radio"></label>
+        <label class="container"> Advanced <input class="inp" type="radio" name="radio"></label> <br>
+        <button id="subscribe"> SUBSCRIBE</button>
+    </fieldset>
+
+    <hr>
+    <footer>
+        <h5>created by: Tariq alsh</h5>
+    </footer>
+    
+</body>
+
+<script> 
+   let subscribe = document.getElementById('subscribe');
+   subscribe.addEventListener('click', (e) => {
+       confirm('Save the changes?')
+   });
+</script>
+
+</html>

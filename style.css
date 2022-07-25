@@ -1,0 +1,140 @@
+*{
+    font-family: 'Amatic SC',sans-serif;
+}
+body{
+    background-color: rgb(185, 224, 218);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(100, 161, 185);
+
+}
+
+.logo{
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(58, 55, 55);
+}
+h1 span{
+    color: rgb(55, 98, 105);
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    
+    
+    
+}
+
+li a{
+    display: inline;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    display: inline;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+
+#joinus{
+    background-color: rgb(76, 131, 235);
+    border-radius: 7%;
+}
+
+
+.main img{
+  margin-top: 1rem;
+  
+  
+  width: 20%;
+  border-radius: 30%;
+}
+
+.main h1{
+    font-family: 'Amatic SC',sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+hr{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.who p{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+fieldset{
+    width: 50%;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.container{
+    display: inline-flex;
+    
+}
+
+#fit{
+    padding-right: 1rem;
+}
+
+.inline{
+    display: inline;
+    padding: 1rem;
+}
+
+button{
+    margin-top: 0.5rem;
+    background-color: rgb(14, 55, 131);
+    color: rgb(225, 241, 255);
+    cursor: pointer;
+}
+.inp{
+    cursor: pointer;
+}
+
+footer h5{
+    font-size: 1rem;
+}
+
+@media (max-width: 500px){
+    .logo{
+        display: none;
+    }
+    ul{
+        display: inline;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    .main{
+        display: block;
+
+    }
+    .main h1{
+        font-size: 1.5rem;
+    }
+    .who img{
+        width: 100%;
+    }
+}
+
